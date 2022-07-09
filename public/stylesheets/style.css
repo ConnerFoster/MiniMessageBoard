@@ -8,3 +8,29 @@ body {
 a {
   color: #00b7ff;
 }
+
+.messages {
+  margin-top: 5rem;
+}
+
+.individual-message {
+  background-color: rgb(82, 82, 82);
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.add-btn {
+  background-color: #e74c3c;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  color: white;
+  padding: .85rem;
+  border-radius: 3px;
+}
+
+.add-btn:hover {
+  background-color: #e73d2a;
+  cursor: pointer;
+}
