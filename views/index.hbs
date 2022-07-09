@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<div class="messages">
+    {{#each messages}}
+    <div class="individual-message">
+        <h2>{{this.text}}</h2>
+        <h2>{{this.user}}</h2>
+        <h2>Submitted On: {{this.added}}</h2>
+    </div>
+    {{/each}}
+</div>
+
+
